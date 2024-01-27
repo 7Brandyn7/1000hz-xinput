@@ -13,3 +13,6 @@ Disclaimer:
 File Descriptions:
 1) Enable.bat - Enables global timer resolution.
 2) Disable.bat - Disables global timer resolution.
+
+
+Download : https://github.com/7Brandyn7/1000hz-xinput/releases
