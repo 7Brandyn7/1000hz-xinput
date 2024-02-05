@@ -14,5 +14,12 @@ File Descriptions:
 1) Enable.bat - Enables global timer resolution.
 2) Disable.bat - Disables global timer resolution.
 
+For those who want to do this manually open registry editor (windows key+r type "regedit" without quotes and press run)
+
+Go to the key
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel
+
+If you do not have
+GlobalTimerResolutionRequests then create new Dword 32 named "GlobalTimerResolutionRequests" (no quotes) and give it hex value of 1
 
 Download : https://github.com/7Brandyn7/1000hz-xinput/releases
